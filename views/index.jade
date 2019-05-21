@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  .wrap-content
+    #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators
+        li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+        li(data-target='#carouselExampleIndicators', data-slide-to='1')
+        li(data-target='#carouselExampleIndicators', data-slide-to='2')
+      .carousel-inner
+        .carousel-item.active
+          img.d-block.w-100.img-slider(src='asset/image/velo_1.jpg', alt='...')
+        .carousel-item
+          img.d-block.w-100.img-slider(src='asset/image/velo_2.png', alt='...')
+        .carousel-item
+          img.d-block.w-100.img-slider(src='asset/image/velo_3.jpg', alt='...')
+      a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+        span.carousel-control-prev-icon(aria-hidden='true')
+        span.sr-only Previous
+      a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+        span.carousel-control-next-icon(aria-hidden='true')
+        span.sr-only Next
+    .wrap-main-content.my-5
+      h1 Bicycle for You
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        | Aenean nec dolor bibendum, dignissim diam ut, sodales nisi. Ut in ante cursus,
+        | gravida mauris quis, elementum nibh. Nullam ultrices nibh iaculis
+        | consectetur auctor. Cras fringilla mattis enim, et dapibus nibh tristique sit amet.
+        | Curabitur sem massa, facilisis vitae libero nec, pretium euismod elit.
+        | Fusce nunc ante, mattis vitae tellus non, tempus placerat eros.
+        | Donec euismod diam eu sapien pulvinar, quis mattis velit faucibus.
+        | Pellentesque sollicitudin dictum felis, eu posuere dui euismod sed.
+        | Nam ac ipsum nec sem mattis molestie tempus id massa.
+        | Mauris dapibus ac eros vitae ornare. Cras in rutrum nisi.
+      p
+        | Cras sit amet ante non neque pharetra ultricies sit amet quis metus.
+        | Sed tristique ac leo quis sagittis. Donec sed feugiat mauris.
+        | Nulla accumsan libero eros, ut facilisis libero sollicitudin eget.
+        | In eleifend, quam non tempus mollis, velit tellus faucibus erat, non sagittis
+        | libero nulla a ante. Nam accumsan eget est vitae volutpat.
+        | Nullam eu orci enim. Etiam vulputate risus risus,
+        | id bibendum purus convallis ac.
+        | In vulputate pretium sodales. Etiam ac imperdiet justo.

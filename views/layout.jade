@@ -1,0 +1,92 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+    link(rel='stylesheet', href='asset/css/style.css')
+    title Main Page
+  body
+    .container-fluid.px-0
+      header.bg-info
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.head-panel
+          a.navbar-brand.mr-9(href='#')
+            span VELO
+          button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+            span.navbar-toggler-icon
+          #navbarSupportedContent.collapse.navbar-collapse.bg-dark
+            ul.navbar-nav.mx-auto.head-panel-menu
+              li.nav-item.mr-3
+                a.nav-link(href='/')
+                  | Home
+                  span.sr-only (current)
+              li.nav-item.mr-3
+                a.nav-link(href='/static') Sing In
+              li.nav-item.mr-3
+                a.nav-link(href='#') Registration
+            form.form-inline.my-2.my-lg-0
+              input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search')
+              button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
+    .container-fluid.main-content.my-5
+      .row
+        .col-sm
+          .wrap-left-menu
+            ul.left-menu
+              li.left-menu-item.bg-dark
+                a.text-white(href='#') Belarus
+              li.left-menu-item.bg-dark
+                a.text-white(href='#') Poland
+              li.left-menu-item.bg-dark
+                a.text-white(href='#') Germany
+              li.left-menu-item.bg-dark
+                a.text-white(href='#') Holand
+              li.left-menu-item.bg-dark
+                a.text-white(href='#') Russia
+        .col-sm-6
+          block content
+        .col-sm
+          .wrap-right-block.text-center
+            aside
+              .ad-wrap.mb-5
+                h4 Lorem ipsum
+                img(src='asset/image/banner.jpg', alt='ad')
+                p.text-justify
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  | Aenean nec dolor bibendum, dignissim diam ut, sodales nisi. Ut in ante cursus,
+                  | gravida mauris quis, elementum nibh. Nullam ultrices nibh iaculis
+                  | consectetur auctor. Cras fringilla mattis enim, et dapibus nibh tristique sit amet.
+              .ad-wrap.mb-5
+                h4 Lorem ipsum
+                p.text-justify
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  | Aenean nec dolor bibendum, dignissim diam ut, sodales nisi. Ut in ante cursus,
+                  | gravida mauris quis, elementum nibh. Nullam ultrices nibh iaculis
+                  | consectetur auctor. Cras fringilla mattis enim, et dapibus nibh tristique sit amet.
+    .container-fluid.footer.bg-dark
+      footer
+        .row.wrap-footer.text-center
+          .wrap-requisite.col-sm.text-white-50
+            a.navbar-brand.text-white(href='#')
+              span VELO
+            p.small.text-left loreim iosum cmscnf kncson aicin iisjdj djjudhgeia k
+          .wrap-copyright.col-sm-6.text-white
+            span.small Copyright: 2010-2019
+            span.small By: Piotr Vasiley
+          .wrap-copyright.col-sm
+            ul.footer-menu
+              li.footer-menu-item
+                a.text-white(href='#') Belarus
+              li.footer-menu-item
+                a.text-white(href='#') Poland
+              li.footer-menu-item
+                a.text-white(href='#') Germany
+              li.footer-menu-item
+                a.text-white(href='#') Holand
+              li.footer-menu-item
+                a.text-white(href='#') Russia
+    // Optional JavaScript
+    // jQuery first, then Popper.js, then Bootstrap JS
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
+
